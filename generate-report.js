@@ -11,8 +11,8 @@ merge({
     charts: true,
     enableCharts: true,
     enableCode: true,
-    reportTitle: '📊 Automated Testing Dashboard | Temínstoclys Pinheiro | QA Engineer',
-    reportPageSubtitle: 'Automated Testing Report',
+    reportTitle: '📊 Dashboard | Automated Testing Report',
+    reportPageSubtitle: 'Temínstoclys Pinheiro | QA Engineer',
     reportPageTitle: 'Mochawesome Report 🚀',
     overwrite: true
   });
