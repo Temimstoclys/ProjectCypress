@@ -1,10 +1,10 @@
 const marge = require('mochawesome-report-generator');
-const mochawesomeMerge = require('mochawesome-merge');
+const { merge } = require('mochawesome-merge');
 
-mochawesomeMerge({
+merge({
   files: ['./mochawesome-report/*.json']
 }).then((report) => {
-  marge.create(report, {
+  return marge.create(report, {
     reportDir: './mochawesome-report',
     reportFilename: 'final-report'
   });
