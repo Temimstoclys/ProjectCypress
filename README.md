@@ -1,28 +1,30 @@
-# ✅ Projeto de Testes Automatizados com Cypress + Cucumber + Mochawesome
+# 🧪🚀Projeto de Testes Automatizados com Cypress + Cucumber + Mochawesome
 
-![Cypress Tests](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/actions/workflows/cypress.yml/badge.svg)
+![Cypress Status](https://img.shields.io/github/actions/workflow/status/Temimstoclys/ProjectCypress/cypress.yml?label=CI%2FCD&logo=github&style=for-the-badge)
 
-Este projeto realiza testes automatizados nas funcionalidades do sistema **[SeuBarriga](https://seubarriga.wcaquino.me)**, utilizando:
+![Último Commit](https://img.shields.io/github/last-commit/Temimstoclys/ProjectCypress?style=for-the-badge)
+
+---
+
+## 🚀 Relatório Online
+
+- 🔗 **Acesse o relatório online:**  
+👉 [Relatório Mochawesome](https://temimstoclys.github.io/ProjectCypress/final-report.html)
+
+- 📦 Também disponível no CI/CD (GitHub Actions) como **Artifact**.
+
+---
+
+## 🧪 Sobre o Projeto
+
+🧪 Este projeto tem como objetivo realizar testes automatizados em funcionalidades que envolvem operações **CRUD**  
+✨ (**Create ➕ Read 🔍 Update 🔧 Delete 🗑️**), aplicando as melhores práticas de automação de testes com:
 
 - ✅ Cypress
 - ✅ Cucumber (BDD)
 - ✅ Page Object Model (POM)
 - ✅ Mochawesome Report
-- ✅ CI/CD via GitHub Actions
-
----
-
-## 🚀 Relatório Mochawesome
-
-- 📦 Após a execução dos testes, o relatório estará disponível na pasta:
-
-```
-mochawesome-report/final-report.html
-```
-
-Basta abrir no navegador para visualizar.
-
-- 📦 No CI/CD (GitHub Actions), o relatório fica disponível como **Artifact** para download na aba de execução do workflow.
+- ✅ CI/CD via GitHub Actions com deploy no GitHub Pages
 
 ---
 
@@ -61,18 +63,19 @@ npm run report:generate
 
 O pipeline executa os seguintes passos:
 
-- 📦 Checkout do repositório
-- 🔧 Instalação das dependências
-- 🚀 Execução dos testes
+- 📥 Checkout do repositório
+- 📦 Instalação das dependências
+- 🚀 Execução dos testes Cypress
 - 📊 Geração do relatório Mochawesome
 - ⬆️ Upload do relatório como **Artifact**
+- 🌐 Publicação automática no **GitHub Pages**
 
 ---
 
-## 🏗️ Estrutura do Projeto
+## 🗂️ Estrutura do Projeto
 
 ```
-Project/
+ProjectCypress/
 ├── cypress/
 │   ├── e2e/
 │   ├── support/
@@ -85,18 +88,26 @@ Project/
 ├── generate-report.js
 ├── package.json
 ├── .gitignore
+├── README.md
+└── LICENSE
 ```
 
 ---
 
 ## 📂 Onde ver o relatório no CI/CD?
 
-1. Acesse seu repositório no GitHub.
-2. Vá na aba **Actions**.
-3. Clique no workflow que executou.
-4. Na lateral direita, clique em **Artifacts**.
-5. Baixe o arquivo `mochawesome-report`.
-6. Extraia e abra `final-report.html`.
+1. Vá na aba **Actions** do repositório.
+2. Clique no workflow executado.
+3. Na lateral direita, clique em **Artifacts**.
+4. Baixe o arquivo `mochawesome-report`.
+5. Extraia e abra `final-report.html`.
+
+---
+
+## 📜 Licença
+
+Este projeto está licenciado sob a licença **MIT**.  
+Consulte o arquivo [LICENSE](./LICENSE) para obter mais informações.
 
 ---
 
