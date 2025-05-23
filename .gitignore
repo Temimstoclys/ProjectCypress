@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Cypress Artifacts
+cypress/screenshots/
+cypress/videos/
+
+# Cypress Test Run Results
+cypress/results/
+mochawesome-report/
+
+# IDEs and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# npm lockfile (opcional)
+package-lock.json
+
+# Optional dependency directories
+.pnp/
+.pnp.js
