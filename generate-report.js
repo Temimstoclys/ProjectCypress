@@ -11,7 +11,8 @@ merge({
     charts: true,
     enableCharts: true,
     enableCode: true,
-    reportTitle: '🚀 Relatório de Testes Automatizados - Temínstoclys QA',
+    reportTitle: '📊 Automated Testing Dashboard | Temínstoclys Pinheiro | QA Engineer',
+    reportPageSubtitle: 'Automated Testing Report',
     reportPageTitle: 'Mochawesome Report 🚀',
     overwrite: true
   });
